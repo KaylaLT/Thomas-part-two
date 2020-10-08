@@ -1,0 +1,80 @@
+header {
+    background-color: #f2f2f2;
+    flex-direction: column; 
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  display: flexbox;
+}
+h1 {
+  font-weight: bold;
+  font-style: normal;
+  background-color: #f2f2f2;
+}
+.code {
+  color: #ff5c0f;
+}
+.learn {
+  color: #20a8b4;
+}
+.think {
+   color: #000;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  font-family: 'Roboto', sans-serif; 
+  display: block;
+  font-size: 24px; 
+}
+a:hover{
+  color: #ff5c0f #61c386;
+  
+}
+button {
+  border-radius: 10px;
+  background-color: #20a8b4;
+  color: #fff;;
+  top: 50%;
+  width: 100%;
+  height: 60px;
+  font-size: 25px;
+  padding: 12px;
+}
+button:hover {
+  color:#ff5c0f #61c386;
+  cursor: pointer;
+}
+ul{ display: flex;}
+li{display: flex;}
+@media screen  (min-width:480px) {
+  ul{
+  flex-direction: column;
+  } 
+  li {
+    width: 50%;
+  }
+  .people{
+    visibility: hidden;
+  }
+}
+@media screen  (min-width: 768px) {
+  ul {
+    font-size: 25px;
+    padding-right: 30px;
+    padding left: 10px;
+    flex-direction: row;
+  }
+li {
+  width: auto; 
+  justify-content: space-between;
+  padding-right: auto;
+}
+.people {
+  visibility: visible;
+  margin-right: 125px;
+}
